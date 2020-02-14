@@ -50,7 +50,7 @@ public static final Logger LOGGER = Logger.getLogger(CustomerController.class);
 		String name = getInput();
 		LOGGER.info("Insert address");
 		String address = getInput();
-		Customer customer1  =customerService.update(new Customer(customerID,name,address));
+		Customer customer1  =customerService.update(new Customer( customerID,name,address));
 		LOGGER.info("Customer updated");
 		return customer1;
 		
