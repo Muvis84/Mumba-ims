@@ -4,6 +4,8 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
+import com.qa.customer.domain.Domain;
+
 public class DomainTest {
 	
 	@Test

@@ -7,8 +7,10 @@ import com.qa.customer.dao.*;
 import com.qa.controller.CrudController;
 import com.qa.controller.CustomerController;
 import com.qa.controller.ItemController;
+import com.qa.controller.OrderController;
 import com.qa.services.CustomerServices;
 import com.qa.services.ItemServices;
+import com.qa.services.OrderServices;
 import com.qa.utils.Config;
 import com.qa.utils.Utils;
 import com.qa.customer.domain.*;
@@ -42,8 +44,8 @@ public class Ims {
 			doAction(itemController, action);
 			break;
 		case ORDER:
-//			OrderController orderController = new OrderController(new OrderServices(new MysqlOrderDao(Config.username,Config.password)));
-//			doAction(orderController,action);
+			OrderController orderController = new OrderController(new OrderServices(new MysqlOrderDao(Config.username,Config.password)));
+			doAction(orderController,action);
 			break;
 		case STOP:
 			break;

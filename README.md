@@ -1,0 +1,93 @@
+# Mumba_ism Project
+
+The project is based on creating a database that holds records from multiply tables. 
+In this circumstance, the database has customer record,item record and order record.
+the purpose of this project was to create a database that will full interact with 
+Java programming language to facilatate, developer to edit the database using the java platform.
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+What things you need to install the software and how to install them
+To achieve this project, certain computer software  are needed here,for instance to create the database,
+ Mysql software is needed with workbench platform, Eclipse software platform is needed for Java coding with maven,Jenkins,sonarqube, github
+github, and violetUML will be all available for this project.
+```
+Give examples
+Elipse,Mysql,Maven, and violetUML
+
+### Installing
+
+A step by step series of examples that tell you how to get a development env running
+
+Say what the step will be
+
+```
+Give the example
+```
+
+And repeat
+
+```
+until finished
+```
+
+End with an example of getting some data out of the system or using it for a little demo
+
+## Running the tests
+
+Explain how to run the automated tests for this system. Break down into which tests and what they do
+
+### Unit Tests 
+
+Explain what these tests test, why and how to run them
+
+```
+Give an example
+```
+
+### Integration Tests 
+Explain what these tests test, why and how to run them
+
+```
+Give an example
+```
+
+### And coding style tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+## Deployment
+
+Add additional notes about how to deploy this on a live system
+
+## Built With
+
+* [Maven](https://maven.apache.org/) - Dependency Management
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning.
+
+## Authors
+
+* **Chris Perrins** - *Initial work* - [christophperrins](https://github.com/christophperrins)
+
+## License
+
+This project is licensed under the MIT license - see the [LICENSE.md](LICENSE.md) file for details 
+
+*For help in [Choosing a license](https://choosealicense.com/)*
+
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
